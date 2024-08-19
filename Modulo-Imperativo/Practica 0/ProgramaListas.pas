@@ -9,9 +9,9 @@ type
 procedure agregarAtras (var l:lista; num:integer);
 var
 	nue,act:lista;
-begin
-	new(nue);
-	nue^.dato:= num;
+begin	
+    new(nue);
+    nue^.dato:= num;
     nue^.sig:= nil;
     if(L <> nil)then begin
 		act:=L;
