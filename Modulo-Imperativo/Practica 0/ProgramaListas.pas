@@ -27,6 +27,7 @@ procedure cargarLista (var l:lista);
 var
 	num:integer;
 begin
+	l:=nil;
 	num :=random(150-100)+100;
 	agregarAtras(l,num);
 	while num<>120 do
@@ -59,7 +60,6 @@ var
 	num:integer;
 	existe:boolean;
 begin
-	l:=nil;
 	cargarLista(l);
 	imprimirLista(l);
 	writeln('Ingrese el numero a buscar');
