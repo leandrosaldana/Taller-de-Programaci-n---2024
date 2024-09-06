@@ -1,3 +1,5 @@
+{INCOMPLETO
+
 program p3ej2;
 type
 	fechas = 1..31;
